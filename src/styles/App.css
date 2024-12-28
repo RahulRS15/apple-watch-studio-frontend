@@ -1,0 +1,88 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .case-selection, .size-selection, .band-selection, .collection-switching, .price-display, .save-share, .watch-preview {
+    margin: 20px auto;
+    padding: 10px;
+    max-width: 800px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .case-item, .band-item {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .case-item img, .band-item img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .case-item.selected, .band-item.selected {
+    border: 2px solid #007bff;
+    transform: scale(1.1);
+  }
+  
+  .size-button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+    transition: background-color 0.2s;
+  }
+  
+  .size-button.selected {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .price-display h2 {
+    text-align: center;
+    color: #007bff;
+  }
+  
+  .save-share button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    transition: background-color 0.2s;
+  }
+  
+  .save-share button:hover {
+    background-color: #0056b3;
+  }
+  
+  .watch-preview img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+  }
+  
+  .watch-preview p {
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+  }
+  
